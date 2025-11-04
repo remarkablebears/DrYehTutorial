@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[vault_clair]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>vault_clair</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 04 Nov 2025 14:33:33 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 04 Nov 2025 14:33:30 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[obsidiancanvastutorial]]></title><description><![CDATA[在職碩班生
+AI + Canvas
+快速上手流程準備階段安裝 Obsidian
+obsidian.md建立筆記庫文件夾
+(本地管理)下載 JSON
+模板檔案規劃階段確定主題
+(論文/專案/課程)列出內容大綱
+(3-4層結構)思考內容關係
+(如何連接)生成階段
+(用 AI)打開 Claude/
+ChatGPT貼入提示詞
++你的內容AI 生成
+JSON 代碼
+(幾秒完成)複製 JSON
+全部代碼導入階段在 Obsidian
+新建 .canvas 檔用文本編輯器
+打開 .canvas 檔刪除原內容
+貼入 JSON保存檔案
+(Ctrl+S)優化階段回到 Obsidian
+查看 Canvas調整節點位置
+(拖動排列)修改文字/顏色
+(按需求)新增/刪除連線
+(表示關係)完成！
+吸睛的
+專業思維導圖導出為圖片
+(分享/報告)持續編輯
+(隨時更新)分享給團隊
+(協作)耗時估算
+15-25分鐘準備:5分
+規劃:5分
+生成:2分
+導入:3分
+優化:5-10分]]></description><link>obsidiancanvastutorial.html</link><guid isPermaLink="false">obsidiancanvastutorial.canvas</guid><pubDate>Tue, 04 Nov 2025 14:03:05 GMT</pubDate></item></channel></rss>
