@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Canvas 教學流程圖</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', '微軟正黑體', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 50px 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .description {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            text-align: left;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .description h3 {
+            color: #667eea;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+        
+        .description ul {
+            margin-left: 20px;
+            list-style: none;
+        }
+        
+        .description li {
+            margin-bottom: 10px;
+        }
+        
+        .description li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 16px 32px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.05em;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #f0e6ff;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .btn-secondary:hover {
+            background: #e6d9ff;
+            transform: translateY(-2px);
+        }
+        
+        .steps {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        
+        .steps h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+        
+        .step-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            align-items: flex-start;
+        }
+        
+        .step-num {
+            background: #667eea;
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .step-text {
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #0084ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            color: #004085;
+        }
+        
+        .info-box strong {
+            color: #0052a3;
+        }
+        
+        .footer {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .card {
+                padding: 30px 20px;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>✨ Obsidian Canvas 教學流程圖</h1>
+            <div class="subtitle">
+                為在職碩班生設計的完整學習路徑<br>
+                15-25 分鐘快速掌握 AI + Canvas 思維導圖
+            </div>
+            
+            <div class="description">
+                <h3>📚 這個流程圖包含什麼？</h3>
+                <ul>
+                    <li>完整的 5 個學習階段</li>
+                    <li>26 個詳細的操作節點</li>
+                    <li>清晰的關係連線和流程</li>
+                    <li>準備 → 規劃 → 生成 → 導入 → 優化</li>
+                    <li>時間估算和使用方向</li>
+                </ul>
+            </div>
+            
+            <div class="button-group">
+                <a href="教學流程圖_完整版.json" class="btn btn-primary">
+                    📥 下載 JSON 檔案
+                </a>
+                <button class="btn btn-secondary" onclick="showPreview()">
+                    👁️ 預覽結構
+                </button>
+            </div>
+            
+            <div class="info-box">
+                <strong>💡 使用方式：</strong><br>
+                下載 JSON 檔案，複製到 Obsidian 的 .canvas 檔案中，即可在 Obsidian 中查看完整的互動式流程圖。
+            </div>
+            
+            <div class="steps">
+                <h3>🚀 快速開始</h3>
+                <div class="step-item">
+                    <div class="step-num">1</div>
+                    <div class="step-text">下載 JSON 檔案到本地</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">2</div>
+                    <div class="step-text">在 Obsidian 新建 .canvas 檔案</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">3</div>
+                    <div class="step-text">用文本編輯器打開 .canvas 檔案</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">4</div>
+                    <div class="step-text">複製 JSON 內容貼入</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">5</div>
+                    <div class="step-text">保存後在 Obsidian 中查看</div>
+                </div>
+            </div>
+            
+            <div style="background: #f0f9e6; border-left: 4px solid #28a745; padding: 20px; border-radius: 8px; margin-bottom: 30px; color: #155724;">
+                <strong>✅ 完成後你將得到：</strong><br>
+                一個清晰、專業、可互動的思維導圖，展示完整的學習流程和所有關鍵步驟。
+            </div>
+            
+            <div class="footer">
+                Made for Master's students | Obsidian Canvas + AI 教學系列
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function showPreview() {
+            alert('JSON 結構預覽：\n\n' +
+                  '5 個主要階段：\n' +
+                  '1. 準備階段 (3 個細項)\n' +
+                  '2. 規劃階段 (3 個細項)\n' +
+                  '3. 生成階段 (4 個細項)\n' +
+                  '4. 導入階段 (4 個細項)\n' +
+                  '5. 優化階段 (4 個細項)\n\n' +
+                  '額外內容：\n' +
+                  '- 最終成果 (3 個應用方向)\n' +
+                  '- 時間估算\n\n' +
+                  '總計 26 個節點 + 完整連線關係');
+        }
+    </script>
+</body>
+</html>
